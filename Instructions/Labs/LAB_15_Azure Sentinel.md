@@ -4,7 +4,7 @@ lab:
     module: '모듈 04 - 보안 작업 관리'
 ---
 
-# 랩 15: Azure Sentinel에는
+# 랩 15: Azure Sentinel
 # 학생 랩 매뉴얼
 
 ## 랩 시나리오

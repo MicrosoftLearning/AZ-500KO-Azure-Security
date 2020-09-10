@@ -4,7 +4,7 @@ lab:
     module: '모듈 04 – 보안 작업 관리'
 ---
 
-# 랩 13: Azure 모니터
+# 랩 13: Azure Monitor
 # 학생 랩 매뉴얼
 
 ## 랩 시나리오
