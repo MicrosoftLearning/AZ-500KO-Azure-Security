@@ -38,7 +38,7 @@ Azure AD(Azure Active Directory) 테넌트와 온-프레미스 AD DS(Active Dire
 
 이 작업에서는 Azure VM 배포용 DNS 이름을 식별합니다. 
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에 사용 중인 Azure 구독에 Owner 또는 Contributor 역할이 있는 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -72,7 +72,7 @@ Azure AD(Azure Active Directory) 테넌트와 온-프레미스 AD DS(Active Dire
 
 1. **새 AD 포리스트가 있는 Azure VM 만들기** 블레이드에서 **매개 변수 편집**을 클릭합니다.
 
-1. **매개 변수 편집** 블레이드에서 **파일 로드**를 클릭한 뒤 **열기** 대화 상자에서 **\\\\AZ303\\AllFiles\Labs\\10\\azuredeploy30310rga.parameters.json**을 클릭하고 **열기** 클릭 후 **저장**을 클릭합니다. 
+1. **매개 변수 편집** 블레이드에서 **파일 로드**를 클릭한 뒤 **열기** 대화 상자에서 **\\\\AZ303\\AllFiles\Labs\\06\\active-directory-new-domain\\azuredeploy.parameters.json**을 클릭하고 **열기** 클릭 후 **저장**을 클릭합니다. 
 
 1. **새 AD 포리스트가 있는 Azure VM 만들기** 블레이드에서 다음 설정을 지정합니다(그 외는 기존 값을 유지합니다).
 
@@ -210,7 +210,7 @@ Azure AD(Azure Active Directory) 테넌트와 온-프레미스 AD DS(Active Dire
 
    |설정|값|
    |---|---|
-   |사용자 이름| **학생* *|
+   |사용자 이름| **학생** |
    |암호| **Pa55w.rd1234** |
 
     >**참고**: 원격 데스크톱 세션과 **서버 관리자**가 로드될 때까지 기다립니다.  
@@ -223,7 +223,7 @@ Azure AD(Azure Active Directory) 테넌트와 온-프레미스 AD DS(Active Dire
 
 1. **서버 관리자**에서 **도구**를 클릭하고 드롭다운 메뉴에서 **Active Directory 관리 센터**를 클릭합니다.
 
-1. **Active Directory 관리 센터**에서 **adatum(로컬)**을 클릭하고 **작업** 창에서 **신규**를 클릭한 후 계단식 메뉴에서 **조직 구성 단위**를 클릭합니다.
+1. **Active Directory 관리 센터**에서 **adatum(로컬)** 을 클릭하고 **작업** 창에서 **신규**를 클릭한 후 계단식 메뉴에서 **조직 구성 단위**를 클릭합니다.
 
 1. **조직 구성 단위 만들기** 창의 **이름** 텍스트 상자에 **ToSync**를 입력하고 **확인**을 클릭합니다.
 
@@ -309,7 +309,7 @@ Azure AD(Azure Active Directory) 테넌트와 온-프레미스 AD DS(Active Dire
 
 1. **사용자 \| 모든 사용자** 블레이드에서 **aduser1** 항목을 선택합니다.
 
-1. **aduser1**에서 ** \| 프로필** 블레이드의 **작업 정보** 섹션에서 **부서** 특성이 설정되지 않은 것을 확인합니다.
+1. **aduser1**에서 **\| 프로필** 블레이드의 **작업 정보** 섹션에서 **부서** 특성이 설정되지 않은 것을 확인합니다.
 
 1. **adVM**에 대한 원격 데스크톱 세션 내에서 **Active Directory 관리 센터**로 전환하고 **ToSync** OU의 개체 목록에서 **aduser1** 항목을 선택하고 **ToSync** 섹션의 **작업** 창에서 **속성**을 선택합니다.
 
@@ -368,7 +368,7 @@ Azure AD(Azure Active Directory) 테넌트와 온-프레미스 AD DS(Active Dire
 
     >**참고**: 다음으로 Azure 리소스를 제거
 
-1. Azure Portal에서 **디렉터리 + 구독 ** 필터를 **az500-04-vm1** Azure VM을 배포한 Azure 구독과 연결된 Azure AD 테넌트로 설정합니다.
+1. Azure Portal에서 **디렉터리 + 구독** 필터를 **az500-04-vm1** Azure VM을 배포한 Azure 구독과 연결된 Azure AD 테넌트로 설정합니다.
 
 1. Azure Portal에서 Azure Portal의 오른쪽 상단의 첫 번째 아이콘을 클릭하여 Cloud Shell을 엽니다. 
 

@@ -50,7 +50,7 @@ Azure Container Registry 및 Azure Kubernetes Service에 개념 증명을 배포
 
 이 작업에서는 랩에 대한 리소스 그룹인 Azure Container Registry를 만듭니다.
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에서 사용하는 Azure 구독의 Owner 또는 Contributor 역할과 해당 구독과 연결된 Azure AD 테넌트의 전역 관리자 역할을 가진 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -145,7 +145,7 @@ Azure Container Registry 및 Azure Kubernetes Service에 개념 증명을 배포
     |가상 노드| **사용 안 함** |
     |VM Scale Sets| **사용 안 함** |
 	
-1. **다음: 인증 >** **Kubernetes 클러스터 만들기** 블레이드의 **인증** 탭에서 기본값을 수락하고 **다음:**을 클릭합니다. ** 네트워킹 >**. 
+1. **다음: 인증 >** **Kubernetes 클러스터 만들기** 블레이드의 **인증** 탭에서 기본값을 수락하고 **다음:** 을 클릭합니다. **네트워킹 >**. 
 
     >**참고**: Kubernetes 클러스터에서 클러스터에 연결된 클라우드 리소스를 관리하는 데 사용되는 클러스터 인프라 서비스 주체를 만들고 있습니다. 자세한 내용은 [Azure Kubernetes Service의 서비스 주체](https://docs.microsoft.com/ko-kr/azure/aks/kubernetes-service-principal) 페이지를 참조하십시오.
 

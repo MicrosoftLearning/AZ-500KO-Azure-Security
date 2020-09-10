@@ -48,7 +48,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
 
 이 작업에서는 Azure VM을 배포하고, 연결하고, Visual Studio 2019 및 SSMS(SQL Server Management Studio)를 다운로드 및 설치합니다.
 
-1. Azure Portal(`https://portal.azure.com/`)에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에 사용 중인 Azure 구독에 Owner 또는 Contributor 역할이 있는 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -56,7 +56,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
 
 1. **사용자 지정 배포** 블레이드에서 **편집기에서 사용자 고유의 탬플릿 빌드** 옵션을 클릭합니다.
 
-1. **템플릿 편집** 블레이드에서 **파일 로드**를 클릭하고 **\\Allfiles\\Lab\\\10\\az-500-10_azuredeploy.json** 파일을 찾아 **열기**를 클릭합니다.
+1. **템플릿 편집** 블레이드에서 **파일 로드**를 클릭하고 **\\Allfiles\\Lab\\10\\az-500-10_azuredeploy.json** 파일을 찾아 **열기**를 클릭합니다.
 
 1. **템플릿 편집** 블레이드에서 **저장**을 클릭합니다.
 
@@ -116,7 +116,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
 
 1. Visual Studio 2019 Community Edition의 다운로드 및 설치를 시작합니다. 메시지가 표시되면 **Visual Studio 설치 프로그램** 창에서 **계속**을 클릭합니다.
 
-1. 메시지가 표시되면 **워크로드** 창의 **데스크톱 및 모바일** 섹션에서 **NET 데스크톱 개발** 확인란을 선택하고 **설치를 클릭합니다*.
+1. 메시지가 표시되면 **워크로드** 창의 **데스크톱 및 모바일** 섹션에서 **NET 데스크톱 개발** 확인란을 선택하고 **설치를* 클릭합니다.
 
     >**참고**: Visual Studio 2019의 설치가 완료될 때까지 기다리지 말고 다음 작업으로 진행합니다. 
 
@@ -227,7 +227,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
 1.  Cloud Shell 창 내의 PowerShell 세션에서 다음을 실행하여 자격 증명 모음에 암호를 추가합니다.
 
     ```powershell
-    $secret = Set-AZKeyVaultSecret -VaultName $kv.VaultName -Name 'SQLPassword' -SecretValue $secretvalue
+    $secret = Set-AZKeyVaultSecret -VaultName $kv.VaultName -Name 'SQLPassword' -SecretValue $secretvalue
     ```
 
     >**참고**: 암호의 이름은 SQLPassword입니다. 
@@ -286,7 +286,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
 
 1.  **sqlApp** 블레이드의 **관리** 섹션에서 **인증서 및 비밀**을 클릭합니다.
 
-1.  **SQLApp**에서** | 인증서 및 암호** 블레이드에서 **+ 새 클라이언트 암호**를 클릭합니다.
+1.  **SQLApp**에서 **\| 인증서 및 암호** 블레이드에서 **+ 새 클라이언트 암호**를 클릭합니다.
 
 1. **클라이언트 암호 추가** 창에서 다음 설정을 지정합니다.
 
@@ -449,7 +449,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
 
 1. **시작** 페이지에서 **새 프로젝트 만들기**를 클릭합니다. 
 
-1. 프로젝트 템플릿 목록에서 **콘솔 앱(.NET 프레임워크)**을 검색하고, 결과 목록에서 **C#**에 대해 **콘솔 앱(.NET 프레임워크)**을 클릭한 후 **다음**을 클릭합니다.
+1. 프로젝트 템플릿 목록에서 **콘솔 앱(.NET 프레임워크)** 을 검색하고, 결과 목록에서 **C#** 에 대해 **콘솔 앱(.NET 프레임워크)** 을 클릭한 후 **다음**을 클릭합니다.
 
 1. **새 프로젝트 구성** 페이지에서 다음 설정을 지정합니다(다른 설정은 기본값으로 남겨둠).
 

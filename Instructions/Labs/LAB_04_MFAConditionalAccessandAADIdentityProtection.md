@@ -43,7 +43,7 @@ Azure AD(Azure Active Directory) 인증을 향상하는 기능의 개념 증명�
 
 이 작업에서는 ARM 템플릿을 사용하여 가상 머신을 생성합니다. 이 가상 머신은 이 랩의 마지막 연습에 사용됩니다. 
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에서 사용하는 Azure 구독의 Owner 또는 Contributor 역할과 해당 구독과 연결된 Azure AD 테넌트의 전역 관리자 역할을 가진 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -172,7 +172,7 @@ Azure AD(Azure Active Directory) 인증을 향상하는 기능의 개념 증명�
    |설정|값|
    |---|---|
    |사용자 이름| **aaduser2** |
-   |이름| **aaduser2* *|
+   |이름| **aaduser2** |
    |암호| **암호 자동 생성** 옵션이 선택되었는지 확인하고 **암호 표시**를 클릭합니다|
    |그룹| **0개 그룹 선택됨** |
    |역할| **사용자** |
@@ -197,7 +197,7 @@ Azure AD(Azure Active Directory) 인증을 향상하는 기능의 개념 증명�
 
 1. **새 사용자** 블레이드에서 **만들기**를 클릭합니다.
 
-    >**참고**: 이 시점에서 **사용자 **페이지에 새 사용자가 세 명 있어야 합니다. 
+    >**참고**: 이 시점에서 **사용자**페이지에 새 사용자가 세 명 있어야 합니다. 
 	
 #### 작업 4: Azure AD Premium v2 라이선스를 Azure AD 사용자에게 할당
 
@@ -562,7 +562,7 @@ Azure AD(Azure Active Directory) 인증을 향상하는 기능의 개념 증명�
 
 다음 단계를 사용하여 랩의 앞 부분에서 프로비전한 Azure VM을 중지합니다.
 
-1. Azure Portal에서 **디렉터리 + 구독 ** 필터를 **az500-04-vm1** Azure VM을 배포한 Azure 구독과 연결된 Azure AD 테넌트로 설정합니다.
+1. Azure Portal에서 **디렉터리 + 구독** 필터를 **az500-04-vm1** Azure VM을 배포한 Azure 구독과 연결된 Azure AD 테넌트로 설정합니다.
 
 1. Azure Portal에서 Azure Portal 페이지 상단의 **리소스, 서비스 및 문서 검색** 텍스트 상자에 **가상 머신**을 입력하고 **Enter** 키를 누릅니다.
 
