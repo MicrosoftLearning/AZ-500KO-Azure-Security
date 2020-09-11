@@ -1,6 +1,6 @@
 ﻿# AZ-500(미리 보기): Microsoft Azure 보안 기술
 
-- **[랩 링크(HTML 형식)](https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/)**
+- **[랩 링크(HTML 형식)](https://microsoftlearning.github.io/AZ500KO-AzureSecurityTechnologies/)**
 
 - **MCT입니까?** - [MCT용 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide-KO/)를 검토하세요.
 
