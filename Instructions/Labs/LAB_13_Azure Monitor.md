@@ -1,7 +1,7 @@
 ---
 lab:
     title: '13 - Azure Monitor'
-    module: '모듈 04 – 보안 작업 관리'
+    module: '모듈 04 - 보안 작업 관리'
 ---
 
 # 랩 13: Azure Monitor
