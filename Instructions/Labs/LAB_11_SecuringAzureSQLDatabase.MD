@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '11 - Azure SQL Database 보안'
     module: '모듈 03 - 데이터 및 애플리케이션 보안'
