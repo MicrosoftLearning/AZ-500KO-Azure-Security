@@ -1,4 +1,4 @@
-﻿# AZ-500(미리 보기): Microsoft Azure 보안 기술
+# AZ-500: Microsoft Azure 보안 기술
 
 - **[랩 링크(HTML 형식)](https://microsoftlearning.github.io/AZ-500KO-AzureSecurityTechnologies/)**
 
