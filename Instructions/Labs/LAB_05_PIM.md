@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '05 - Azure AD Privileged Identity Management'
     module: '모듈 01 - ID 및 액세스 관리'
