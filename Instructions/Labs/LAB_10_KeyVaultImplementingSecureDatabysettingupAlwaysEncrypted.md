@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '10 - Key Vault(Always Encrypted를 설정하여 보안 데이터 구현)'
     module: '모듈 03 - 데이터 및 애플리케이션 보안'
