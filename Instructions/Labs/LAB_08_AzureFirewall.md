@@ -51,7 +51,7 @@ Azure Firewall을 설치해야 합니다. 조직에서 전체 네트워크 보�
 
 이 작업에서는 ARM 템플릿을 사용하여 가상 머신을 만듭니다. 이 가상 머신은 이 랩의 마지막 연습에 사용됩니다. 
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에 사용 중인 Azure 구독에 Owner 또는 Contributor 역할이 있는 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -73,7 +73,7 @@ Azure Firewall을 설치해야 합니다. 조직에서 전체 네트워크 보�
    |리소스 그룹|**새로 만들기**를 선택하고 이름 **AZ500LAB08**를 입력합니다.|
    |위치|**(미국) 미국 동부**|
 
-    >**참고**: Azure VM을 프로비전할 수 있는 Azure 지역을 확인하려면 [**https://azure.microsoft.com/ko-kr/regions/offers/**](https://azure.microsoft.com/en-us/regions/offers/)를 참조하세요.
+    >**참고**: Azure VM을 프로비전할 수 있는 Azure 지역을 확인하려면 [**https://azure.microsoft.com/ko-kr/regions/offers/**](https://azure.microsoft.com/ko-kr/regions/offers/)를 참조하세요.
 
 1. **검토 + 만들기**를 클릭한 다음, **만들기**를 클릭합니다.
 
@@ -287,11 +287,11 @@ Azure Firewall을 설치해야 합니다. 조직에서 전체 네트워크 보�
 
 1. **Internet Explorer 강화된 보안 구성** 대화 상자에서 두 옵션을 **해제**로 설정하고 **확인**을 클릭합니다.
 
-1. **Srv-Work**에 대한 원격 데스크톱 세션에서 Internet Explorer를 시작하고 **`https://www.bing.com`**으로 이동합니다. 
+1. **Srv-Work**에 대한 원격 데스크톱 세션에서 Internet Explorer를 시작하고 **`https://www.bing.com`** 으로 이동합니다. 
 
     >**참고**: 웹 사이트가 성공적으로 표시되어야 합니다. 방화벽을 사용하면 액세스할 수 있습니다.
 
-1. **`http://www.microsoft.com/`**으로 이동합니다.
+1. **`http://www.microsoft.com/`** 으로 이동합니다.
 
     >**참고**: 브라우저 페이지 내에서 다음과 유사한 텍스트가 포함된 메시지를 받아야 합니다. 10.0.2.4:xxxxx에서 microsoft.com:80.으로 `HTTP 요청 작업: 거부. 일치하는 규칙이 없습니다. 기본 작업을 진행합니다.' 이 현상은 방화벽이 이 웹 사이트에 대한 액세스를 차단하기 때문에 발생할 것으로 예상됩니다. 
 

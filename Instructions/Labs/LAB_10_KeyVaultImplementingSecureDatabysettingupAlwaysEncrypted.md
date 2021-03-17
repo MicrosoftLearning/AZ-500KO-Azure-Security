@@ -45,7 +45,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
 
 이 작업에서는 Azure VM을 배포합니다. 이 배포 과정에서는 Visual Studio 2019 및 SQL Server Management Studio 2018이 자동으로 설치됩니다. 
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에 사용 중인 Azure 구독에 Owner 또는 Contributor 역할이 있는 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -69,7 +69,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
    
     >**참고**: 가상 머신에 로그온하는 데 사용하는 관리 자격 증명을 변경할 수는 있지만 반드시 변경할 필요는 없습니다.
 
-    >**참고**: Azure VM을 프로비전할 수 있는 Azure 지역을 확인하려면 [**https://azure.microsoft.com/ko-kr/regions/offers/**](https://azure.microsoft.com/en-us/regions/offers/)를 참조하세요.
+    >**참고**: Azure VM을 프로비전할 수 있는 Azure 지역을 확인하려면 [**https://azure.microsoft.com/ko-kr/regions/offers/**](https://azure.microsoft.com/ko-kr/regions/offers/)를 참조하세요.
 
 1. **검토 및 만들기** 단추를 클릭한 후에 **만들기** 단추를 클릭하여 배포를 확인합니다. 
 
@@ -420,7 +420,7 @@ Always Encrypted 기능에 대한 Azure SQL Database 지원을 사용하는 개�
 
 1. **시작** 페이지에서 **새 프로젝트 만들기**를 클릭합니다. 
 
-1. 프로젝트 템플릿 목록에서 **콘솔 앱(.NET 프레임워크)**을 검색하고, 결과 목록에서 **C#**에 대해 **콘솔 앱(.NET 프레임워크)**을 클릭한 후 **다음**을 클릭합니다.
+1. 프로젝트 템플릿 목록에서 **콘솔 앱(.NET 프레임워크)** 을 검색하고, 결과 목록에서 **C#** 에 대해 **콘솔 앱(.NET 프레임워크)** 을 클릭한 후 **다음**을 클릭합니다.
 
 1. **새 프로젝트 구성** 페이지에서 다음 설정을 지정합니다(다른 설정은 기본값으로 남겨둠).
 

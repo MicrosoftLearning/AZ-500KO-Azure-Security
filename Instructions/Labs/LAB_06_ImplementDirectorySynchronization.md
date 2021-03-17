@@ -38,7 +38,7 @@ Azure Active Directory(Azure AD) 테넌트와 온-프레미스 AD DS(Active Dire
 
 이 작업에서는 Azure VM 배포용 DNS 이름을 식별합니다. 
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에 사용 중인 Azure 구독에 Owner 또는 Contributor 역할이 있는 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -54,7 +54,7 @@ Azure Active Directory(Azure AD) 테넌트와 온-프레미스 AD DS(Active Dire
 
     >**참고**: '<custom-label>' 자리 표시자를 전역에서 고유할 가능성이 높은 유효한 DNS 이름으로 바꿉니다. '<location>' 자리 표시자를 이 랩에서 사용할 Active Directory 도메인 컨트롤러를 호스팅하는 Azure VM을 배포하려는 영역의 이름으로 바꿉니다.
 
-    >**참고**: Azure VM을 프로비전할 수 있는 Azure 지역을 확인하려면 [**https://azure.microsoft.com/ko-kr/regions/offers/**](https://azure.microsoft.com/en-us/regions/offers/)를 참조하세요.
+    >**참고**: Azure VM을 프로비전할 수 있는 Azure 지역을 확인하려면 [**https://azure.microsoft.com/ko-kr/regions/offers/**](https://azure.microsoft.com/ko-kr/regions/offers/)를 참조하세요.
 
 1. 이 명령이 **True**를 반환하는지 확인합니다. True가 반환되지 않으면 **True**가 반환될 때까지 '<custom-label>'의 다른 값을 사용해 같은 명령을 다시 실행합니다.
 
@@ -70,7 +70,7 @@ Azure Active Directory(Azure AD) 테넌트와 온-프레미스 AD DS(Active Dire
 
 1. **새 Windows VM 만들기 및 새 AD 포리스트, 도메인 및 DC 만들기** 페이지에서 **Azure에 배포**를 클릭합니다. 이렇게 하면 Azure Portal의 **새 AD 포리스트로 Azure VM 만들기** 블레이드로 브라우저가 자동으로 리디렉션됩니다.
 
-1. **새 AD 포리스트가 있는 Azure VM 만들기 **블레이드에서 **매개 변수 편집**을 클릭합니다.
+1. **새 AD 포리스트가 있는 Azure VM 만들기** 블레이드에서 **매개 변수 편집**을 클릭합니다.
 
 1. **매개 변수 편집** 블레이드에서 **파일 로드**를 클릭하고 **열기** 대화 상자에서 **\\\\AllFiles\Labs\\06\\active-directory-new-domain\\azuredeploy.parameters.json**, **열기**, **저장**을 차례로 클릭합니다. 
 
@@ -112,7 +112,7 @@ Azure Active Directory(Azure AD) 테넌트와 온-프레미스 AD DS(Active Dire
 
 1. 현재 Azure AD 테넌트의 **개요**를 표시하는 블레이드에서 **+ 테넌트 만들기**를 클릭합니다.
 
-1. **디렉터리 만들기** 블레이드의 **기본** 탭에서 **Azure Active Directory** 옵션을 선택하고 **다음: 구성 >**을 클릭합니다.
+1. **디렉터리 만들기** 블레이드의 **기본** 탭에서 **Azure Active Directory** 옵션을 선택하고 **다음: 구성 >** 을 클릭합니다.
 
 1. **디렉터리 만들기** 블레이드의 **구성** 탭에서 다음 설정을 구성합니다.
 
@@ -227,7 +227,7 @@ Azure Active Directory(Azure AD) 테넌트와 온-프레미스 AD DS(Active Dire
 
 1. **서버 관리자**에서 **도구**를 클릭하고 드롭다운 메뉴에서 **Active Directory 관리 센터**를 클릭합니다.
 
-1. **Active Directory 관리 센터**에서 **adatum(로컬)**을 클릭하고 **작업** 창에서 **신규**를 클릭한 후 계단식 메뉴에서 **조직 구성 단위**를 클릭합니다.
+1. **Active Directory 관리 센터**에서 **adatum(로컬)** 을 클릭하고 **작업** 창에서 **신규**를 클릭한 후 계단식 메뉴에서 **조직 구성 단위**를 클릭합니다.
 
 1. **조직 구성 단위 만들기** 창의 **이름** 텍스트 상자에 **ToSync**를 입력하고 **확인**을 클릭합니다.
 
@@ -323,7 +323,7 @@ Azure Active Directory(Azure AD) 테넌트와 온-프레미스 AD DS(Active Dire
 
 1. **adVM**에 대한 원격 데스크톱 세션 내에서 **Windows PowerShell**을 시작합니다.
 
-1. **관리자**로부터:** Windows PowerShell** 콘솔은 다음을 실행하여 Azure AD Connect 델타 동기화를 시작합니다:
+1. **관리자**로부터: **Windows PowerShell** 콘솔은 다음을 실행하여 Azure AD Connect 델타 동기화를 시작합니다:
 
     ```powershell
     Import-Module -Name 'C:\Program Files\Microsoft Azure AD Sync\Bin\ADSync\ADSync.psd1'
@@ -401,4 +401,4 @@ Azure Active Directory(Azure AD) 테넌트와 온-프레미스 AD DS(Active Dire
 
 1. **'AdatumSync' 디렉터리 삭제** 블레이드로 다시 이동하여 **삭제**를 클릭합니다.
 
-> 이 작업에 대한 자세한 내용은 [https://docs.microsoft.com/ko-kr/azure/active-directory/users-groups-roles/directory-delete-howto](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-delete-howto)를 참조하세요.
+> 이 작업에 대한 자세한 내용은 [https://docs.microsoft.com/ko-kr/azure/active-directory/users-groups-roles/directory-delete-howto](https://docs.microsoft.com/ko-kr/azure/active-directory/users-groups-roles/directory-delete-howto)를 참조하세요.

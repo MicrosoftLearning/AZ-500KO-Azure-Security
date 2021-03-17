@@ -36,7 +36,7 @@ Security Center 기반 환경의 개념 증명을 작성하라는 요청을 받�
 
 이 작업에서는 Security Center를 등록하고 구성합니다.
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에 사용 중인 Azure 구독에 Owner 또는 Contributor 역할이 있는 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -46,7 +46,7 @@ Security Center 기반 환경의 개념 증명을 작성하라는 요청을 받�
      
 1. **Security Center \| 시작** 블레이드 왼쪽의 세로 메뉴에 있는 **관리** 섹션에서 **가격 책정 및 설정**을 클릭합니다.
 
-1. **Security Center \| ****가격 책정 및 설정**에서 사용자의 구독을 나타내는 항목을 클릭하고 **설정 \| Azure Defender 플랜** 블레이드에서 **Azure Defender 켜기**가 선택되어 있는지 확인합니다. 
+1. **Security Center \| 가격 책정 및 설정** 에서 사용자의 구독을 나타내는 항목을 클릭하고 **설정 \| Azure Defender 플랜** 블레이드에서 **Azure Defender 켜기**가 선택되어 있는지 확인합니다. 
 
     >**참고**: Azure Defender 계층에 포함되어 제공되는 모든 기능을 검토하여 각 리소스 종류에 대해 Azure Defender가 켜져 있는지 확인합니다. 
 
@@ -56,7 +56,7 @@ Security Center 기반 환경의 개념 증명을 작성하라는 요청을 받�
 
 1. **설정 \| 자동 프로비전** 블레이드에서 첫 번째 항목인 **Azure VM용 Log Analytics 에이전트**에 대해 **자동 프로비전**이 **켜기**로 설정되어 있는지 확인합니다. 
 
-1. **설정 \| ****자동 프로비전** 블레이드의 첫 번째 항목인 **Azure VM용 Log Analytics 에이전트**에서 **구성** 열의 **구성 편집** 링크를 클릭합니다. 
+1. **설정 \| 자동 프로비전** 블레이드의 첫 번째 항목인 **Azure VM용 Log Analytics 에이전트**에서 **구성** 열의 **구성 편집** 링크를 클릭합니다. 
 
 1. **확장 배포 구성** 블레이드의 **작업 영역 구성** 섹션에서 **Azure VM을 다른 작업 영역에 연결** 옵션을 선택하고 드롭다운 목록에서 이전 랩에서 만든 Log Analytics 작업 영역을 선택합니다. 
 

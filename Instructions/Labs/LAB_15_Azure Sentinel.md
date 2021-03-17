@@ -4,7 +4,7 @@ lab:
     module: '모듈 04 - 보안 작업 관리'
 ---
 
-# 랩 15: Azure Sentinel에는
+# 랩 15: Azure Sentinel
 # 학생 랩 매뉴얼
 
 ## 랩 시나리오
@@ -44,7 +44,7 @@ Azure Sentinel 기반 위협 탐지 및 응답의 개념 증명을 만들라는 
 
 이 작업에서는 Azure Sentinel을 온보딩하고 Log Analytics 작업 영역을 연결합니다. 
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에 사용 중인 Azure 구독에 Owner 또는 Contributor 역할이 있는 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -54,7 +54,7 @@ Azure Sentinel 기반 위협 탐지 및 응답의 개념 증명을 만들라는 
 
 1. **Azure Sentinel에 추가할 작업 영역 선택** 블레이드에서, Azure Monitor 랩에서 만든 Log Analytics 작업 영역을 선택하고 **추가**를 클릭합니다.
 
-    >**참고**: Azure Sentinel에는 작업 영역에 대한 매우 구체적인 요구 사항이 있습니다. 예를 들어 Azure Security Center에 의해 만들어진 작업 영역은 사용할 수 없습니다. [빠른 시작](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)에서 더 알아보기[ Azure Sentinel 등록](https://docs.microsoft.com/en-us/azure/sentinel/quickstart-onboard)
+    >**참고**: Azure Sentinel에는 작업 영역에 대한 매우 구체적인 요구 사항이 있습니다. 예를 들어 Azure Security Center에 의해 만들어진 작업 영역은 사용할 수 없습니다. [빠른 시작](https://docs.microsoft.com/ko-kr/azure/sentinel/quickstart-onboard)에서 더 알아보기[ Azure Sentinel 등록](https://docs.microsoft.com/ko-kr/azure/sentinel/quickstart-onboard)
 	
 #### 작업 2: Azure Sentinel을 구성하여 Azure 활동 데이터 커넥터를 사용합니다. 
 
@@ -94,7 +94,7 @@ Azure Sentinel 기반 위협 탐지 및 응답의 개념 증명을 만들라는 
 
 1. **분석 규칙 마법사 - 템플릿에서 새 규칙 만들기** 블레이드의 **규칙 논리 설정** 탭에서 기본 설정을 수락하고 **다음:**을 클릭합니다.** 인시던트 설정 >**.
 
-1. **분석 규칙 마법사 - 템플릿에서 새 규칙 만들기** 블레이드의 **인시던트 설정** 탭에서 기본 설정을 수락하고 **다음: 자동 응답 >**을 클릭합니다. 
+1. **분석 규칙 마법사 - 템플릿에서 새 규칙 만들기** 블레이드의 **인시던트 설정** 탭에서 기본 설정을 수락하고 **다음: 자동 응답 >** 을 클릭합니다. 
 
     >**참고**: 여기서 논리 앱으로 구현된 플레이북을 규칙에 추가하여 문제를 자동으로 수정할 수 있습니다.
 
@@ -188,7 +188,7 @@ Azure Sentinel 기반 위협 탐지 및 응답의 개념 증명을 만들라는 
 
 1. **분석 규칙 마법사 - 새 규칙 만들기** 블레이드의 **규칙 논리 설정** 탭에서 나머지 설정의 기본값을 수락하고 **다음:**을 클릭** 인시던트 설정 >**.
 
-1. **분석 규칙 마법사 - 새 규칙 만들기**블레이드의 **인시던트 설정** 탭에서 기본 설정을 수락하고 **다음:**을 클릭합니다** 자동 응답 >**을 클릭합니다. 
+1. **분석 규칙 마법사 - 새 규칙 만들기**블레이드의 **인시던트 설정** 탭에서 기본 설정을 수락하고 **다음:**을 클릭합니다**자동 응답 >** 을 클릭합니다. 
 
 1. **분석 규칙 마법사 - 새 규칙 만들기** 블레이드의 **자동 응답** 탭에서 **변경-인시던트-심각도** 확인란을 선택하고 **다음:**을 클릭합니다** 검토 >**. 
 

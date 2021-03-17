@@ -50,7 +50,7 @@ Azure Container Registry 및 Azure Kubernetes Service에 개념 증명을 배포
 
 이 작업에서는 랩에 대한 리소스 그룹인 Azure Container Registry를 만듭니다.
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에서 사용하는 Azure 구독의 Owner 또는 Contributor 역할과 해당 구독과 연결된 Azure AD 테넌트의 전역 관리자 역할을 가진 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -139,18 +139,18 @@ Azure Container Registry 및 Azure Kubernetes Service에 개념 증명을 배포
     |가용성 영역 |**None**|
     |노드 수|**1**|
 
-1. **다음: 노드 풀 >**을 차례로 클릭합니다. **Kubernetes 클러스터 만들기** 블레이드의 **노드 풀** 탭에서 다음 설정을 지정합니다(다른 설정은 기본값으로 유지).
+1. **다음: 노드 풀 >** 을 차례로 클릭합니다. **Kubernetes 클러스터 만들기** 블레이드의 **노드 풀** 탭에서 다음 설정을 지정합니다(다른 설정은 기본값으로 유지).
 
     |설정|값|
     |----|----|
     |가상 노드|확인란 선택 취소|
     |VM 확장 집합|확인란 선택 취소|
 	
-1. **다음: 인증 >** **Kubernetes 클러스터 만들기** 블레이드의 **인증** 탭에서 기본값을 수락하고 **다음**을 클릭합니다.** 네트워킹 >**을 차례로 클릭합니다. 
+1. **다음: 인증 >** **Kubernetes 클러스터 만들기** 블레이드의 **인증** 탭에서 기본값을 수락하고 **다음**을 클릭합니다.**네트워킹 >** 을 차례로 클릭합니다. 
 
-    >**참고**: Kubernetes 클러스터에서 클러스터에 연결된 클라우드 리소스를 관리하는 데 사용되는 클러스터 인프라 서비스 주체를 만들고 있습니다. 자세한 내용은 [Azure Kubernetes Service의 서비스 주체](https://docs.microsoft.com/en-us/azure/aks/kubernetes-service-principal) 페이지를 참조하십시오.
+    >**참고**: Kubernetes 클러스터에서 클러스터에 연결된 클라우드 리소스를 관리하는 데 사용되는 클러스터 인프라 서비스 주체를 만들고 있습니다. 자세한 내용은 [Azure Kubernetes Service의 서비스 주체](https://docs.microsoft.com/ko-kr/azure/aks/kubernetes-service-principal) 페이지를 참조하십시오.
 
-    >**참고**: Kubernetes에 대한 역할 기반 액세스 제어를 사용합니다. 자세한 내용은 [Azure Kubernetes Service와 Azure Active Directory 통합](https://docs.microsoft.com/en-us/azure/aks/azure-ad-integration) 페이지를 참조하십시오. 
+    >**참고**: Kubernetes에 대한 역할 기반 액세스 제어를 사용합니다. 자세한 내용은 [Azure Kubernetes Service와 Azure Active Directory 통합](https://docs.microsoft.com/ko-kr/azure/aks/azure-ad-integration) 페이지를 참조하십시오. 
 
 1. **Kubernetes 클러스터 만들기** 블레이드의 **네트워킹** 탭에서 다음 설정을 지정합니다(다른 설정은 기본값으로 남겨둡니다).
 
@@ -159,7 +159,7 @@ Azure Container Registry 및 Azure Kubernetes Service에 개념 증명을 배포
     |네트워크 구성|**Azure CNI**|
     |DNS 이름 접두사|유효하고 전역적으로 고유한 DNS 호스트 이름|
 
-    >**참고**: AKS는 프라이빗 클러스터로 구성할 수 있습니다. 이렇게 하면 API 서버에 프라이빗 IP를 할당하여 API 서버와 노드 풀 간의 네트워크 트래픽이 프라이빗 네트워크에만 남아 있는지 확인합니다. 자세한 내용은 [프라이빗 Azure Kubernetes Service 클러스터 만들기](https://docs.microsoft.com/en-us/azure/aks/private-clusters) 페이지를 참조하세요.
+    >**참고**: AKS는 프라이빗 클러스터로 구성할 수 있습니다. 이렇게 하면 API 서버에 프라이빗 IP를 할당하여 API 서버와 노드 풀 간의 네트워크 트래픽이 프라이빗 네트워크에만 남아 있는지 확인합니다. 자세한 내용은 [프라이빗 Azure Kubernetes Service 클러스터 만들기](https://docs.microsoft.com/ko-kr/azure/aks/private-clusters) 페이지를 참조하세요.
 
 1. **다음: 통합 >** 그리고 **Kubernetes 클러스터 만들기** 블레이드의 **통합** 탭에서 **컨테이너 모니터링**을 **사용 안 함**으로 설정합니다. 
 
