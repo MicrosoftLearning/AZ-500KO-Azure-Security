@@ -50,7 +50,7 @@ Azure Container Registry 및 Azure Kubernetes Service에 개념 증명을 배포
 
 이 작업에서는 랩에 대한 리소스 그룹인 Azure Container Registry를 만듭니다.
 
-1. Azure Portal **`https://portal.azure.com/`**에 로그인합니다.
+1. Azure Portal **`https://portal.azure.com/`** 에 로그인합니다.
 
     >**참고**: 이 랩에서 사용하는 Azure 구독의 Owner 또는 Contributor 역할과 해당 구독과 연결된 Azure AD 테넌트의 전역 관리자 역할을 가진 계정을 사용하여 Azure Portal에 로그인합니다.
 
@@ -139,14 +139,14 @@ Azure Container Registry 및 Azure Kubernetes Service에 개념 증명을 배포
     |가용성 영역 |**없음**|
     |노드 수|**1**|
 
-1. **다음: 노드 풀 >**을 클릭하고 **Kubernetes 클러스터 만들기** 블레이드의 **노드 풀** 탭에서 다음 설정을 지정합니다(다른 설정은 기본값으로 남겨둡니다).
+1. **다음: 노드 풀 >** 을 클릭하고 **Kubernetes 클러스터 만들기** 블레이드의 **노드 풀** 탭에서 다음 설정을 지정합니다(다른 설정은 기본값으로 남겨둡니다).
 
     |설정|값|
     |----|----|
     |가상 노드 사용|확인란 선택 취소|
     |VM 확장 집합|확인란 선택 취소|
 	
-1. **다음: 인증 >** **Kubernetes 클러스터 만들기** 블레이드의 **인증** 탭에서 기본값을 수락하고 **다음: 네트워킹 >**을 클릭합니다. 
+1. **다음: 인증 >** **Kubernetes 클러스터 만들기** 블레이드의 **인증** 탭에서 기본값을 수락하고 **다음: 네트워킹 >** 을 클릭합니다. 
 
 1. **Kubernetes 클러스터 만들기** 블레이드의 **네트워킹** 탭에서 다음 설정을 지정합니다(다른 설정은 기본값으로 남겨둡니다).
 
@@ -167,7 +167,7 @@ Azure Container Registry 및 Azure Kubernetes Service에 개념 증명을 배포
 
 1. 배포가 완료되면 Azure Portal에서 Azure Portal 페이지 상단에 있는 **리소스, 서비스 및 문서 검색** 텍스트 상자에서 **리소스 그룹**을 입력하고 **Enter** 키를 누릅니다.
 
-1. **리소스 그룹** 블레이드의 리소스 그룹 목록에서 AKS 노드의 구성 요소를 보유하는 **MC_AZ500LAB09_MyKubernetesCluster_eastus**라는 새 리소스 그룹을 기록합니다. 이 리소스 그룹에서 리소스를 검토합니다. 
+1. **리소스 그룹** 블레이드의 리소스 그룹 목록에서 AKS 노드의 구성 요소를 보유하는 **MC_AZ500LAB09_MyKubernetesCluster_eastus** 라는 새 리소스 그룹을 기록합니다. 이 리소스 그룹에서 리소스를 검토합니다. 
 	
 1. **리소스 그룹** 블레이드로 돌아와서 **AZ500LAB09** 항목을 클릭합니다. 
 
